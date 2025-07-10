@@ -10,7 +10,7 @@ from model_definitions import HybridEfficientCNN_MIT67, DenseNetLikeSceneClassif
 from class_names import label_names  # list of 67 scene class names
 
 # Setup
-st.set_page_config(page_title="Scene Classifier", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Indoor Scene Classifier", page_icon="📸", layout="centered")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load class names
